@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cssstylesheet.css">
+</html>
+<body>
+    <div class="heading"><h1>Calculator Using HTML CSS JavaScript</h1></div>
+    <div class="mainbox">
+        <div class="outputbox display">
+            <div class="resultbox"></div>
+        </div>
+        <button class="operator delete" onclick="excute('7')">DEL</button>
+        <button class="operator clear " onclick="excute('7')" >C</button>
+        <button class="operator percentege" onclick="excute('7')">%</button>
+        <button class="operator divide" onclick="excute('7')">÷</button>
+        <button onclick="excute('7')">7</button>
+        <button onclick="excute('7')">8</button>
+        <button onclick="excute('7')">9</button>
+        <button onclick="excute('7')">X</button>
+        <button onclick="excute('7')">4</button>
+        <button onclick="excute('7')">5</button>
+        <button onclick="excute('7')">6</button>
+        <button class="operator" onclick="excute('7')">-</button>
+        <button onclick="excute('7')">1</button>
+        <button onclick="excute('7')">2</button>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+        <button onclick="excute('7')">3</button>
+        <button class="operator" onclick="excute('7')">+</button>
+        <button onclick="excute('7')">0</button>
+        <button class="operator" onclick="excute('7')">.</button>
+        <button class="operator span" onclick="excute('7')" >=</button>
+    </div>
+    <script>
+        function excute(value){
+            document.getElementsByClass("display").innerHTML += value
+        }
+        
+    </script>
+</body>
+</html>
